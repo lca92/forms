@@ -33,6 +33,7 @@
           <li><a href="#urlinput">URL input</a></li>
           <li><a href="#weekinput">Week input</a></li>
           <li><a href="#selectelement">Select Element</a></li>
+          <li><a href="#datalistelement">Datalist Element</a></li>
         </ul>
       </nav>
     </header>
@@ -284,6 +285,23 @@
             <option value="ramen" selected>Ramen</option>
             <option value="tacos">Tacos</option>
           </select>
+        </form>
+      </section>
+
+      <section id="datalistelement">
+        <h2>Datalist Element</h2>
+        <form>
+          <label for="city">Ideal city to visit?</label>
+          <input type="text" list="cities" id="city" name="city" />
+
+          <datalist id="cities">
+            <option value="New York City"></option>
+            <option value="Tokyo"></option>
+            <option value="Barcelona"></option>
+            <option value="Mexico City"></option>
+            <option value="Melbourne"></option>
+            <option value="Other"></option>
+          </datalist>
         </form>
       </section>
     </main>
